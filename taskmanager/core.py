@@ -7,7 +7,7 @@ from __future__ import annotations
 
 import datetime as dt
 import re
-from typing import Callable
+from collections.abc import Callable
 
 from . import auth
 from .models import Task

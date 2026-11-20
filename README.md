@@ -11,11 +11,11 @@ Built in Python as part of my software development training, then reworked from 
 - **Safe editing**: a task can be completed or edited only by its assignee or the admin. Edits are validated before anything is changed, so a failed edit never leaves a task half-updated.
 - **Reports**: task and per-user statistics (completion rate, overdue rate, share of workload) written to text files.
 - **Reliable storage**: data lives in JSON files, written atomically so a crash mid-save cannot corrupt them.
-- **Tested**: 116 tests, including a test for every bug fixed from the original script. Lint and tests run on Python 3.9 to 3.13 in GitHub Actions.
+- **Tested**: 116 tests, including a test for every bug fixed from the original script. Lint and tests run on Python 3.10 to 3.14 in GitHub Actions.
 
 ## Quick start
 
-Requires Python 3.9 or newer.
+Requires Python 3.10 or newer.
 
 ```bash
 git clone <your-repo-url>

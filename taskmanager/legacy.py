@@ -4,12 +4,11 @@ from __future__ import annotations
 
 from dataclasses import dataclass, field
 from pathlib import Path
-from typing import Union
 
 from .core import MIN_PASSWORD_LENGTH, TaskManager, TaskManagerError
 from .models import parse_date
 
-PathLike = Union[str, Path]
+PathLike = str | Path
 
 
 @dataclass
