@@ -18,7 +18,7 @@ Built in Python as part of my software development training, then reworked from 
 Requires Python 3.10 or newer.
 
 ```bash
-git clone <your-repo-url>
+git clone Task-Manager
 cd task-manager
 python -m pip install -e .
 task-manager --demo
