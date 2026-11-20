@@ -1,0 +1,20 @@
+# Local app data: users (password hashes), tasks and generated reports
+data/
+demo_data/
+
+# Plain-text files from the original version of this project.
+# user.txt holds plain-text passwords, so it must never be committed.
+user.txt
+tasks.txt
+task_overview.txt
+user_overview.txt
+
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+build/
+dist/
+.venv/
+.pytest_cache/
+.ruff_cache/
